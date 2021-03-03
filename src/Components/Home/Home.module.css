@@ -1,0 +1,56 @@
+
+.container_roxo{
+    padding: 1.5rem 2rem;
+    width: 50rem;
+    height: 37.5rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr 0.2fr;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+
+    background: url('../../Assets/Time\ To\ Play.svg') no-repeat;
+}
+
+ .title{
+    font-size: 4.5rem ;
+    font-family: var(--type-title);
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+
+.title span{
+    font-size: 4.5rem ;
+    font-family: var(--type-title);
+    color: #7CFC67;
+}
+
+.oldwoman, .minesweeper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.animeLeft {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  
+    animation: animeLeft 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animeLeft {
+    20%{
+        transform: translateX(-300px);
+    }
+    50% {
+      transform: translateX(calc(360px - 32.35px));
+    }
+    100% {
+        transform: initial;
+      }
+  }
+  
