@@ -47,7 +47,7 @@
         transform: translateX(-300px);
     }
     50% {
-      transform: translateX(calc(360px - 32.35px));
+      transform: translateX(calc(350px - 32.35px));
     }
     100% {
         transform: initial;
