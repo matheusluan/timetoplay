@@ -1,0 +1,23 @@
+.celula{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: .4rem;
+    background: #F3F2F5;
+    width: 5rem;
+    height: 5rem;
+    box-sizing: border-box;
+    transition: .1s;
+
+}
+
+.celula:hover,
+.celula:focus{
+
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3); 
+
+}
+

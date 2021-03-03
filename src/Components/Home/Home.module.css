@@ -5,7 +5,7 @@
     height: 37.5rem;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1.3fr 1.3fr 0.2fr;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
@@ -38,7 +38,7 @@
     align-items: center; 
     justify-content: center;
   
-    animation: animeLeft 3s;
+    animation: animeLeft 5s;
     animation-iteration-count: infinite;
   }
   
@@ -53,4 +53,3 @@
         transform: initial;
       }
   }
-  

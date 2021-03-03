@@ -1,0 +1,68 @@
+
+.container_roxo{
+    padding: 2rem 2rem;
+    width: 50rem;
+    height: 37.5rem;
+    margin: 0 auto;
+    display: grid;
+    border-radius: 8px;
+    grid-template-rows:  .1fr 1fr .2fr;
+    row-gap: 50px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+
+    background-color: #6441A5;
+}
+
+ .title{
+    font-size: 4.5rem ;
+    font-family: var(--type-title);
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+
+.title span{
+    font-size: 4.5rem ;
+    font-family: var(--type-title);
+    color: #7CFC67;
+}
+
+.table{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.table .linha{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+.container_roxo footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.player1{
+    color: #6441A5;
+}
+.player2{
+    color: #7CFC67;
+}
+
+.animationIcon:hover{
+  
+    animation: animationIcon 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animationIcon {
+    to{
+        transform: rotate(360deg);
+    }
+  }
+  
+  
