@@ -8,7 +8,7 @@ const Celula = ({ value, onClick, ...props}) => {
     return (
 
        <button onClick={onClick} className={styles.celula} >
-           {value &&( value === 'X' ? <img src={Ghost_purple} alt="X"/> : <img src={Pacman_green} alt="O"/>)}
+           {value &&( value === 'X' ? <img src={Ghost_purple} alt="X" className={styles.animationIcon}/> : <img src={Pacman_green} alt="O" className={styles.animationIcon}/>)}
        </button>
    
     );

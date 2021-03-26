@@ -21,3 +21,15 @@
 
 }
 
+.animationIcon:hover{
+  
+    animation: animationIcon 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animationIcon {
+    to{
+        transform: rotate(360deg);
+    }
+  }
+  
