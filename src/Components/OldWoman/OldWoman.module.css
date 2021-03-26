@@ -36,21 +36,21 @@
 
 }
 
-.table .linha{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 20px;
-}
-.container_roxo footer{
+.footer{
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+
 }
 .player1{
     color: #6441A5;
 }
 .player2{
     color: #7CFC67;
+}
+
+.button{
+    outline-style: none;
+    cursor: pointer;
 }
 
 .animationIcon:hover{
