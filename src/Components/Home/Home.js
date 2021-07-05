@@ -12,7 +12,7 @@ export default function Home (){
             <h1 className={styles.title}><span>T</span>ime<span>T</span>o<span>P</span>lay</h1>
             <section className={styles.oldwoman}>
                 <img src={Ghost_green} alt="Ghost_green"/>
-                <Link to="/oldwoman"> <Button>Old-Woman SALVE RAPAZIADA</Button></Link>
+                <Link to="/oldwoman"> <Button>Old-Woman Aula de ADMS</Button></Link>
             </section>
             <section className={styles.minesweeper}>
                 <img src={Ghost_green} alt="Ghost_green"/>
